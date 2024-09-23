@@ -8,6 +8,8 @@ build/*
 _C.*
 outputs/*
 checkpoints/*.pt
+notebooks/*.npy
+notebooks/*.pkl
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,images
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,images
