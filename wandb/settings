@@ -1,0 +1,5 @@
+[default]
+entity = a01026108469
+project = sam2
+base_url = https://api.wandb.ai
+

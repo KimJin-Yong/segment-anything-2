@@ -10,7 +10,8 @@ outputs/*
 checkpoints/*.pt
 notebooks/*.npy
 notebooks/*.pkl
-notebooks/*.torch
+*.torch
+notebooks/*.jpg
 
 ### VisualStudioCode ###
 .vscode/*
