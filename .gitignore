@@ -6,12 +6,17 @@ __pycache__/
 *.egg*
 build/*
 _C.*
+
 outputs/*
 checkpoints/*.pt
+
 notebooks/*.npy
 notebooks/*.pkl
-*.torch
 notebooks/*.jpg
+
+wandb/*
+
+*.torch
 
 ### VisualStudioCode ###
 .vscode/*
