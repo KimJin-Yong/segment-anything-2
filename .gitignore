@@ -11,10 +11,12 @@ outputs/*
 checkpoints/*.pt
 
 notebooks/*.npy
+notebooks/masks/*
+
 notebooks/*.pkl
 notebooks/*.jpg
 
-wandb/*
+notebooks/wandb/*
 
 *.torch
 
