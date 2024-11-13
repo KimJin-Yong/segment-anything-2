@@ -19,6 +19,7 @@ notebooks/*.jpg
 notebooks/wandb/*
 
 *.torch
+*.mp4
 
 ### VisualStudioCode ###
 .vscode/*

@@ -9,11 +9,11 @@ from sam2.sam2_image_predictor import SAM2ImagePredictor
 sam2_checkpoint = "checkpoints/sam2_hiera_small.pt"  # @param ["sam2_hiera_tiny.pt", "sam2_hiera_small.pt", "sam2_hiera_base_plus.pt", "sam2_hiera_large.pt"]
 model_cfg = "sam2_hiera_s.yaml" # @param ["sam2_hiera_t.yaml", "sam2_hiera_s.yaml", "sam2_hiera_b+.yaml", "sam2_hiera_l.yaml"]
 
-FINE_TUNED_MODEL_WEIGHTS = r"C:\Users\dockn\SAM-code\segment-anything-2\notebooks\our_data\fine_tuned_sam2_1500.torch"
+# FINE_TUNED_MODEL_WEIGHTS = r"C:\Users\dockn\SAM-code\segment-anything-2\notebooks\our_data\fine_tuned_sam2_1500.torch"
 
 sam2 = build_sam2(model_cfg, sam2_checkpoint, device="cuda")
 predictor = SAM2ImagePredictor(sam2)
-predictor.model.load_state_dict(torch.load(FINE_TUNED_MODEL_WEIGHTS))
+# predictor.model.load_state_dict(torch.load(FINE_TUNED_MODEL_WEIGHTS))
 
 # 사이드바에 이미지 업로드
 st.sidebar.header("Upload an Image")
